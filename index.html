@@ -1,0 +1,98 @@
+<html lang="es">
+<head>
+<!-- Permite caracteres Unicode en lenguaje español, incluyendo acentos y eñes-->
+	<meta charset="UTF-8">
+</head>
+<!-- Llamadas a bootstrap y jquery en la nube-->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- CSS local-->
+<link href="form-css-local.css" rel="stylesheet">
+
+<section class="accordion-section clearfix mt-3" aria-label="Acordion de Preguntas y Respuestas">
+  <div class="container">
+  
+	  <h2>Preguntas Frecuentes </h2>
+	  <!-- Inicio del panel del acordión-->
+	  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  <!-- Inicio del panel uno-->
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+			<h3 class="panel-title">
+			<!-- Sección de preguntas: reemplace el texto donde sea necesario-->
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+				Pregunta 1?
+			  </a>
+			</h3>
+		  </div>
+		  <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+			<div class="panel-body px-3 mb-4">
+			<!-- Sección de respuestas: reemplace el texto donde sea necesario-->
+			  <p>Respuesta 1, tales como:</p>
+			<!-- crea una lista-->
+			  <ul>
+				<li>Opción 1.</li>
+				<li>Opción 2.</li>
+				<li>Opción 3.</li>
+				<li>Opción 4.</li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		<!-- Fin del panel 1-->
+		<!-- Inicio del panel 2-->
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+			<h3 class="panel-title">
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+				Pregunta 2?
+			  </a>
+			</h3>
+		  </div>
+		  <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+			<div class="panel-body px-3 mb-4">
+			  <p>Respuesta 2.</p>
+			</div>
+		  </div>
+		</div>
+		<!-- Fin del panel 2-->
+		<!-- Inicio del panel 3-->
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+			<h3 class="panel-title">
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+				Pregunta 3?
+			  </a>
+			</h3>
+		  </div>
+		  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+			<div class="panel-body px-3 mb-4">
+			  <p>Respuesta 3.</p>
+			</div>
+		  </div>
+		</div>
+		<!-- Fin del panel 3-->
+		<!-- Inicio del panel 4-->
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+			<h3 class="panel-title">
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+				Pregunta 4?
+			  </a>
+			</h3>
+		  </div>
+		  <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+			<div class="panel-body px-3 mb-4">
+			  <p>Respuesta 4.</p>
+			</div>
+		  </div>
+		</div>
+		<!-- Fin del panel 4-->
+		<!-- Copie tantos paneles como sea necesario y reemplace sus preguntas y respuestas-->
+	  </div><!-- fin panel de acordión-->
+  </div><!-- fin container-->
+</section>
+</html>

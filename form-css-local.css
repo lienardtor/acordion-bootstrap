@@ -1,0 +1,33 @@
+h2 {
+    font-family: Verdana, Arial;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-style: italic;
+    color: #000;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 2rem;
+    color: #1c89d8;
+    float: right;
+    content: "\f106";
+    margin-top: -10px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.3rem;
+}
